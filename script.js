@@ -24,7 +24,6 @@ function checarOsInputs(){
         setarSucessoPara(password)
     }
 }
-
 function setarErroPara(input, message) {
     const formControl = input.parentElement;
     const small = formControl.querySelector("small");
